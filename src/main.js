@@ -18,7 +18,7 @@ Mods:
     - Ships start at default speed, but respawn at a random speed 
     ( I tried increasing the speed, but the ships started moving too fast and the player always hit them)
     - Ships now wait one second before respawning, after they have been destoryed 
-
+- Time took: 6 hours
 */
 let config = {
     type: Phaser.AUTO,
