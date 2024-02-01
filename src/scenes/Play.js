@@ -168,7 +168,7 @@ class Play extends Phaser.Scene {
             lifespan: 3000,
             gravityY: 200
         });
-
+        // https://github.com/phaserjs/examples/blob/master/public/src/game%20objects/particle%20emitter/emit%20at%20pointer.js
         boom.anims.play('explode')             // play explode animation
         boom.on('animationcomplete', () => {   // callback after anim completes
             ship.reset()                         // reset ship position
